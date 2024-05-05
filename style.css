@@ -2,10 +2,8 @@ html,
 body {
    margin: 0;
    padding: 0;
-}
-
-body{
-    height:100vh;
+   height:100vh;
+   overflow-y: hidden;
 }
 
 @font-face {
@@ -37,8 +35,8 @@ body{
 }
 
 .left{
-    height: 100%;
-    width:900px;
+    min-height: 100vh;
+    min-width:470px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -50,6 +48,8 @@ body{
 .right{
     background: #b11b20;
     width:100%;
+    min-width:600px;
+    min-height: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
