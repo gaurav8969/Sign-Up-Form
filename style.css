@@ -90,6 +90,7 @@ label{
 }
 
 input{
+    min-width:200px;
     width:250px;
     height:1.5em;
     margin-bottom:40px;
